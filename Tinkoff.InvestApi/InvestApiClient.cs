@@ -3,7 +3,7 @@ using Tinkoff.InvestApi.V1;
 
 namespace Tinkoff.InvestApi;
 
-public class InvestApiClient
+public class InvestApiClient : IInvestApiClient
 {
     public InvestApiClient(CallInvoker callInvoker)
     {
